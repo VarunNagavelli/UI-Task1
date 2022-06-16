@@ -1,0 +1,129 @@
+@media (max-width: 768px) {
+    .login-section::before {
+        clip-path: polygon(100% 0%, 100% 95%, 0% 100%, 0% 0%);
+    }
+
+    .top-header {
+        width: 80%;
+    }
+
+    .second-header { 
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5em;
+    }
+
+    .second-header-body {
+        width: 40%;
+        padding-bottom: 3em;
+    }
+
+    .second-header-body-text {
+        padding-right: 0;
+    }
+
+    .window { 
+        background: -webkit-linear-gradient(90deg,#ffffff 91%, #EEEEEE 9%);
+        width: 55%;
+        height: 16em;
+    }
+
+    .features {
+        width: 80%;
+      }
+
+    .steps {
+        width: 65%;
+    } 
+
+    .tester-friendly {
+        width: 84%;
+    }
+
+    .tester-friendly-text {
+        width: 45%;
+    }
+    
+    .tester-friendly-img {
+        margin-top: 2em;
+        width: 50%;
+        height: 16em;
+    }
+
+    .features-desc {
+        padding: 0 10%;
+        max-width: 100%;
+    }
+
+    .features-desc-col1 {
+        max-width: 40%;
+    }
+
+    .features-desc-col2 {
+        max-width: 50%;
+        margin-left: 0;
+    } 
+
+    .team {
+        width: 100%;
+    }
+
+    .our-team {
+        width: 70%;
+    }
+
+    .cards {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .person-card {
+        max-width: 40%;
+    }
+
+    .person-img {
+        height: 10em;
+    }
+
+    .person-name {
+        text-align: center;
+    }
+
+    .how-it-works {
+        clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 5%);
+        padding: 0;
+    }
+
+    .how-it-works-head {
+        width: 70%;
+    }
+
+    .how-it-works-text {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .how-it-works-body {
+        width: 90%;
+        margin: auto;
+    }
+
+    .how-it-works-body-window {
+        width: 40%;
+        height: 16em;
+        margin: 0 auto;
+    }
+
+    .how-it-works-body-desc {
+        width: 50%;
+    } 
+
+    .quote {
+        width: 70%;
+    } 
+
+    .copyright-policy {
+        width: 84%;
+        padding: 1em 0;
+    }
+}
